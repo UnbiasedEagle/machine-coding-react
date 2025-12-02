@@ -1,0 +1,65 @@
+.show-offer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.offer-btn {
+  height: 60px;
+  width: 150px;
+  border: none;
+  outline: none;
+  background-color: purple;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: pink;
+  padding: 16px;
+  position: relative;
+  text-align: center;
+}
+
+.close-btn {
+  position: absolute;
+  background-color: pink;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+}
+
+.content {
+  margin-top: 40px;
+  width: 300px;
+  height: 200px;
+  font-size: 20px;
+}
+.accept-btn {
+  height: 40px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: purple;
+  font-size: 20px;
+  color: #fff;
+}
