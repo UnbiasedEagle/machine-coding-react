@@ -32,8 +32,6 @@ export const ImageCarousel = () => {
     };
   }, []);
 
-  console.log(index);
-
   return (
     <div
       onMouseEnter={() => clearInterval(imageRef.current)}
